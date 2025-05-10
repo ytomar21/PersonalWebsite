@@ -48,9 +48,10 @@ const About = () => {
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] leading-[30px]">
-        I'm a skilled software developer with experience working with high performance applications in C++ using OpenMPI and Cuda.
-        Additionally, I have experience with AI and ML model building, specifically with PyTorch, OpenCV, and building models from scratch
-        through NumPy. I am currently pursuing a Master's Degree in Computer Science through Georgia Tech with a specialization in Machine Learning.
+        I have experience with AI and ML model building, specifically with PyTorch, OpenCV, and building models from scratch
+        through NumPy. Specifically, I have experience with Computer Vision, working with models like YOLO, DETR, and ResNet and incorporating them into Graph Neural Networks.
+        I'm also a skilled software developer with experience working with high performance applications in C++ using OpenMPI and Cuda.
+        I am currently pursuing a Master's Degree in Computer Science through Georgia Tech with a specialization in Machine Learning.
         I am also interested in Quantum Computing, and have experience with IBM's Qiskit building QAOA and Grover's Algorithm.
         I love to learn and am always looking for new challenges to tackle that have real world impacts.
       </motion.p>

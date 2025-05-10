@@ -20,6 +20,8 @@ import {
     starbucks,
     tesla,
     shopify,
+    lockheed,
+    arka,
     carrent,
     jobit,
     tripguide,
@@ -61,29 +63,10 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -94,20 +77,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -117,57 +92,44 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "AI/ML Intern",
+      company_name: "Lockheed Martin",
+      icon: lockheed,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Computer Vision Model that utilized satellite images to determine fire hazards in the case of wildfires",
+        "Finetuned ImageNet to achieve a 91% accuracy.",
+        "Achieved 1st place in Lockheed Martin's AI/ML competition.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "HPC Engineer",
+      company_name: "Lockheed Martin",
+      icon: lockheed,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2023 - March 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining real time/multi processing applications using OpenMPI, C++, and Cuda",
+        "Collaborating with cross-functional teams including system engineers, product managers, and other developers to create high-quality products.",
+        "Wrote test tools in C++ to mimic real time conditions and validate software",
+        "Wrote post analysis scripts in Python to validate hundreds of gigabytes of real time data during software demo.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Senior AI/ML Engineer",
+      company_name: "ARKA Group",
+      icon: arka,
+      iconBg: "#383E56",
+      date: "April 2025 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing Computer Vision models to reduce false positives generated in detection models(Yolo, DETR, etc).",
+        "Implemented Graph Neural Networks with PyGeo (SageConv, GATv2, etc)",
+        "Incorporated ResNet feature maps to improve model performance",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+
   ];
   
   const testimonials = [
